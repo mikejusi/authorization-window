@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Music-Player</title>
+    <title>Авторизация</title>
 </head>
 <body>
     <div class="wrapper">
@@ -16,21 +16,21 @@
                         Войти в аккаунт
                     </h3>
                 </div>
-                <form action="" class="form__auth">
+                <form action="/index.html" class="form__auth">
 
                     <div class="form__container">
                         <div class="text-field text-field_floating">
-                            <input class="text-field__input" type="text" id="name" placeholder="example@gmail.com">
+                            <input class="text-field__input" type="text" id="name" placeholder="Алексей" required>
                             <label class="text-field__label" for="name">Имя</label>
                         </div>
     
                         <div class="text-field text-field_floating">
-                            <input class="text-field__input" type="email" id="email" placeholder="example@gmail.com">
+                            <input class="text-field__input" type="email" id="email" placeholder="example@gmail.com" required>
                             <label class="text-field__label" for="email">Email</label>
                         </div>
     
                         <div class="text-field text-field_floating">
-                            <input class="text-field__input" type="password" id="Password" placeholder="example@gmail.com">
+                            <input class="text-field__input" type="password" id="Password" placeholder="****" pattern=".{6,}" required>
                             <label class="text-field__label" for="Password">Пароль</label>
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                         <a href="" class="create">
                             Создать аккаунт
                         </a>
-                        <button type="button" class="btn-primary">Далее</button>
+                        <button type="submit" class="btn-primary">Далее</button>
                     </div>
 
                 </form>
