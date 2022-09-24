@@ -33,6 +33,12 @@ a{
     height: 100%;
 }
 
+.form__auth{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 .text-field_floating {
     position: relative;
 }
